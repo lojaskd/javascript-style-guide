@@ -1,7 +1,6 @@
 module.exports = {
   extends: ['standard'],
   rules: {
-    semi: [2, 'never'],
     'max-len': [
       'error',
       {
