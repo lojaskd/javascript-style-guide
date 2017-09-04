@@ -27,7 +27,7 @@
     "url": "https://github.com/lojaskd/javascript-style-guide/issues"
   },
   "homepage": "https://github.com/lojaskd/javascript-style-guide#readme",
-  "devDependencies": {
+  "dependencies": {
     "eslint-config-standard": "^10.2.1",
     "eslint-plugin-import": "^2.7.0",
     "eslint-plugin-node": "^5.1.1",
