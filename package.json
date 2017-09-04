@@ -1,0 +1,37 @@
+{
+  "name": "eslint-config-lojaskd-base",
+  "version": "0.0.1",
+  "description": "Base LojasKD's JS ESLint config, following our styleguide",
+  "main": ".eslintrc.js",
+  "scripts": {
+    "publish:pa": "npm version patch && npm publish",
+    "publish:mi": "npm version minor && npm publish",
+    "publish:ma": "npm version major && npm publish",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lojaskd/javascript-style-guide.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "javascript",
+    "styleguide",
+    "lojaskd",
+    "lkd"
+  ],
+  "author": "LojasKD Dev team <ti@lojaskd.com.br>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lojaskd/javascript-style-guide/issues"
+  },
+  "homepage": "https://github.com/lojaskd/javascript-style-guide#readme",
+  "devDependencies": {
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-node": "^5.1.1",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1"
+  }
+}
